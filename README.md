@@ -1,4 +1,4 @@
-# AI-Powered AR/VR for Analyzing Student Behavior
+# AI-Powered AR/VR Study Behavior Analysis
 
 ## 📚 Project Overview
 This project aims to analyze students' cognitive performance by comparing two teaching methods: **Traditional Learning** and **VR-Based Learning**. Using EEG devices, brainwave data is collected from students during these sessions. The data is then processed using **TensorFlow**, **CNN models**, and **LSTM** to evaluate their cognitive thinking levels and learning effectiveness.
@@ -25,6 +25,7 @@ The EEG device captures brainwave signals from **8 electrodes**, with each elect
 - Cognitive states such as attention, focus, and engagement levels.
 
 ### Example EEG Output 
+![EEG Data Screenshot](data_set_sample.png)
 The EEG output consists of **8 channels (electrodes)**, with values recorded in scientific notation. Each column represents the brainwave activity captured from a specific electrode. The dataset requires preprocessing to remove noise, normalize signals, and filter out irrelevant data for better accuracy in cognitive analysis.
 
 ---
